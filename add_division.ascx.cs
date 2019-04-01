@@ -50,6 +50,7 @@ public partial class admin_add_division : System.Web.UI.UserControl
         cmd6.Parameters.AddWithValue("@staff_id", TextBox3.Text);
         cmd6.Parameters.AddWithValue("@year", TextBox2.Text);
         db6.execute(cmd6);
+      
     }
     protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
     {

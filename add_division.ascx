@@ -18,12 +18,14 @@
 
                                     <div class="col-2">
         <div class="input-group-desc">
-            <asp:TextBox ID="TextBox1" runat="server" class="input--style-5"></asp:TextBox>
+       <center><font size="4px">Division ID</font></center> 
+            <asp:TextBox ID="TextBox1" runat="server" class="input--style-5" ReadOnly="true" AutoCompleteType="disabled"></asp:TextBox>
             </div>
             </div>
 
             <div class="col-2">
                                         <div class="input-group-desc">
+                                       <center><font size="4px">Class</font></center>
                                              <div class="rs-select2 js-select-simple select--no-search">
             <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem>--select--</asp:ListItem>
@@ -54,7 +56,7 @@
                                  
          
       
-                                            
+                   <center><font size="4px">Divisiom</font></center>                         
        <div class="rs-select2 js-select-simple select--no-search">
             <asp:DropDownList ID="DropDownList2" runat="server">
                 <asp:ListItem>--select--</asp:ListItem>
@@ -70,7 +72,7 @@
                                     </div>
                                       <div class="col-2">
         <div class="input-group-desc">
-                                            
+                               <center><font size="4px">Teacher</font></center>             
        <div class="rs-select2 js-select-simple select--no-search">
             <asp:DropDownList ID="DropDownList3" runat="server" 
                 onselectedindexchanged="DropDownList3_SelectedIndexChanged" 
@@ -94,7 +96,7 @@
         <div class="col-2">
         <div class="input-group-desc">
                                             
-      
+      <center><font size="4px">Teacher ID</font></center>
                                  <asp:TextBox ID="TextBox3" runat="server" class="input--style-5"></asp:TextBox> 
          
       
@@ -104,6 +106,7 @@
                                     </div>
                                       <div class="col-2">
         <div class="input-group-desc">
+        <center><font size="4px">Year</font></center>
                             <asp:TextBox ID="TextBox2" runat="server" class="input--style-5"></asp:TextBox>                 
       
                                     </div>
