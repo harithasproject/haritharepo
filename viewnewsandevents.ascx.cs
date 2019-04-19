@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-public partial class admin_view_newsandevents : System.Web.UI.UserControl
+public partial class publicss_viewnewsandevents : System.Web.UI.UserControl
 {
     protected void Page_Load(object sender, EventArgs e)
     {

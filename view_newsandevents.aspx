@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/office.master" AutoEventWireup="true" CodeFile="view_newsandevents.aspx.cs" Inherits="office_view_newsandevents" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/teacher.master" AutoEventWireup="true" CodeFile="view_newsandevents.aspx.cs" Inherits="teacher_view_newsandevents" %>
 
 <%@ Register src="view_newsandevents.ascx" tagname="view_newsandevents" tagprefix="uc1" %>
 

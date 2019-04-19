@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="view_newsandevents.ascx.cs" Inherits="admin_view_newsandevents" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="viewnewsandevents.ascx.cs" Inherits="publicss_viewnewsandevents" %>
 <asp:DataList ID="DataList1" runat="server" CellSpacing="2" RepeatDirection="Horizontal">
 <HeaderTemplate>
 <font size="4px" style="color:#f9fafc">
